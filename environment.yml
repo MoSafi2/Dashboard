@@ -5,6 +5,4 @@ matplotlib
 zarr
 jupyterlab
 jupyterlite-core
-#jupyterlite-pyodide-kernel
 jupyterlite-xeus-python
-pyviz_comms
