@@ -1,0 +1,8 @@
+!*.ipynb
+!*.npy
+!*.py
+*.zarr
+*.pickle
+*.rar
+*.csv
+*.parquet
