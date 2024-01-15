@@ -143,3 +143,4 @@ y-py @ file:///home/conda/feedstock_root/build_artifacts/y-py_1677231021422/work
 ypy-websocket @ file:///home/conda/feedstock_root/build_artifacts/ypy-websocket_1670333059911/work
 zarr @ file:///home/conda/feedstock_root/build_artifacts/zarr_1692615632620/work
 zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1695255097490/work
+python=="3.11"
