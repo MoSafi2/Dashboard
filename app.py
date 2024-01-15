@@ -57,7 +57,7 @@ def save_plot(event):
     with open(filename, 'rb') as f:
         img_data = base64.b64encode(f.read()).decode("ascii")
     # Update the link pane
-    link_pane.object = f'<a href="data:image/png;base64,{img_data}" target="_blank">Right click me!</a>'
+    link_pane.object = f'<a href="data:image/png;base64,{img_data}" target="_blank">Right click - open in a new tab/window</a>'
     
 
 save_button = pn.widgets.Button(name='Save', button_type='primary')
