@@ -5,14 +5,15 @@ import matplotlib.pyplot as plt
 import zarr
 import numpy as np
 import base64
+import holoviews as hv
+import numpy as np
+import panel as pn
+
+
 
 gene_names = np.load("gene_names.npy")
 sdge = zarr.open("sdge.zarr")
 locations = np.load("locations.npy")
-
-import holoviews as hv
-import numpy as np
-import panel as pn
 
 # Ensure holoviews is working with matplotlib
 hv.extension('matplotlib')
@@ -84,3 +85,7 @@ template.main.append(layout)
 
 # Display the template
 template.servable()
+
+
+
+
