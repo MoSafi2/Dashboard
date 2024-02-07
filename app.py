@@ -12,7 +12,7 @@ import panel as pn
 
 
 gene_names = np.load("gene_names.npy")
-sdge = zarr.open("sdge.zarr")
+sdge = np.load("sdge.npy")
 locations = np.load("locations.npy")
 
 # Ensure holoviews is working with matplotlib
