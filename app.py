@@ -14,7 +14,7 @@ import anndata
 
 
 gene_names = np.load("gene_names.npy")
-sdge = zarr.open("sdge.zarr")
+sdge = np.load("sdge.npy")
 locations = np.load("locations.npy")
 EB5n2 = anndata.read("EB5n2.h5ad")
 
