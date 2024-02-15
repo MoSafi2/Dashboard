@@ -6,7 +6,12 @@
 *.csv
 *.parquet
 lite/*
+<<<<<<< HEAD
 
 EB5n2.h5ad
 
 plot.png
+=======
+sdge.npy
+sdge.zarr/.zgroup
+>>>>>>> 5b3386a372895e595ad39c137fd085d55b36a8a6
