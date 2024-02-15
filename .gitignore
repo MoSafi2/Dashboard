@@ -6,3 +6,5 @@
 *.csv
 *.parquet
 lite/*
+sdge.npy
+sdge.zarr/.zgroup

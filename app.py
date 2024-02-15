@@ -2,7 +2,6 @@ import matplotlib
 matplotlib.use('agg')
 
 import matplotlib.pyplot as plt
-import zarr
 import numpy as np
 import base64
 import holoviews as hv
