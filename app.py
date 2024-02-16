@@ -11,10 +11,15 @@ import holoviews as hv
 import numpy as np
 import panel as pn
 import anndata
-
+import pickle
 
 gene_names = np.load("gene_names.npy")
-sdge = np.load("sdge.npy")
+# sdge = np.load("sdge.npy")
+
+with open("EB5n2_SCT_sdge.pickle", "rb") as f:
+    sdge = pickle.load(f)
+
+
 locations = np.load("locations.npy")
 EB5n2 = anndata.read("EB5n2.h5ad")
 
